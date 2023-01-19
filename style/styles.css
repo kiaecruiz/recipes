@@ -1,0 +1,55 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/04/81/33/57/360_F_481335799_khKwqBN9tvn6piqm5NxQBOYj4XYWBPUG.jpg);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20%;
+    box-shadow: 5px 5px;
+}
+.dishes{
+    position: relative;
+    width: 60%;
+    background-color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+hr{
+    height: 2px;
+}
+.row::after{
+    clear: both;
+    display: table;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: brown;
+}
