@@ -1,6 +1,6 @@
 body{
     background-image: url(https://t4.ftcdn.net/jpg/04/81/33/57/360_F_481335799_khKwqBN9tvn6piqm5NxQBOYj4XYWBPUG.jpg);
-    padding: 20px;
+    margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,7 @@ img{
     height: 70%;
     padding: 10px;
     align-items: center;
-    border-radius: 20%;
+    border-radius: 5%;
     box-shadow: 5px 5px;
 }
 .dishes{
@@ -34,8 +34,16 @@ h3{
     font-size: 30px;
     text-align: center;
 }
+p, li{
+    font-size: 20px;
+    text-align: justify;
+}
+.main{
+    margin: 5px 20px 5px 20px;
+}
 hr{
     height: 2px;
+    margin: 0px 3px 0px 3px;
 }
 .row::after{
     clear: both;
@@ -52,4 +60,15 @@ a:hover{
 }
 a:active{
     color: brown;
+}
+footer{
+    background-color: brown;
+    color: azure;
+    text-align: center;
+    font-size: 17px;
+    padding: 15px;
+    margin: 15px 0 0 0;
+}
+a.link{
+    color: azure;
 }
